@@ -1,8 +1,157 @@
 /* IMPOSTAZIONI GENERALI */
 
+body {
+  text-align: center;
+  width: 50vh;
+  margin: auto;
+  background-image: url("../img/sfondo.png");
+}
+span {
+  color: purple;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+  padding: 10% 12%;
+  text-align: left;
+}
+ol {
+  list-style-type: auto;
+  padding: 10% 12%;
+  text-align: left;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: normal;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: -2%;
+  font-weight: bold;
+}
+h3 {
+  letter-spacing: -1.5%;
+  font-size: 1.5rem;
+}
+
 /* HEADER */
+img {
+  max-width: 100%;
+  height: auto;
+  width: 80%;
+}
+
+header {
+  background-color: lightseagreen;
+  padding: 10%;
+  margin: 5% 0;
+  font-weight: bold;
+  -webkit-box-shadow: 8px 8px 15px 5px #00000083;
+  box-shadow: 8px 8px 15px 5px #0000005f;
+  border-radius: 3px;
+}
+
+header p {
+  color: white;
+  text-wrap: nowrap;
+}
+nav {
+  margin-top: 10%;
+}
+
+nav p {
+  padding: 0;
+}
 
 /* MAIN */
+
+main {
+  background-color: rgb(255, 255, 255);
+  padding: 10% 6%;
+  border: 1px solid rgb(136, 136, 136);
+  -webkit-box-shadow: 8px 8px 15px 5px #00000083;
+  box-shadow: 8px 8px 15px 5px #0000005f;
+}
+
+h1 {
+  text-align: left;
+}
+
+main section p {
+  text-align: left;
+}
+
+tbody {
+  height: 26vh;
+}
+
+th {
+  background-color: rgb(18, 30, 103);
+  width: 30%;
+}
+
+tr:nth-last-of-type(2),
+tr:nth-last-of-type(4) {
+  background-color: rgba(132, 132, 132, 0.867);
+}
+
+hr {
+  border: 1px solid blue;
+}
+
+#video-yt {
+  box-sizing:border-box;
+  width: 100%;
+  height: auto;
+  padding: 4px 0;
+  border-radius: 20px;
+}
+
+#news{
+    background-color: rgb(166, 166, 166);
+    padding: 10% 10%;
+    margin: 10% 0;
+}
+
+input,button {
+    margin-top: 5%;
+    padding: 0 3%;
+    border: none;
+    height: 30px;
+}
+
+input{
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.247);
+}
+
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category {
+    background-color: rgba(128, 128, 128, 0.545) ;
+    border:2px solid black;
+    padding: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.data {
+    text-align: right;
+}
+
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
@@ -13,3 +162,11 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+footer {
+  background-color: rgb(68, 24, 200);
+  margin: 7% 0;
+  color: white;
+  -webkit-box-shadow: 8px 8px 15px 5px #00000083;
+  box-shadow: 8px 8px 15px 5px #0000005f;
+}
