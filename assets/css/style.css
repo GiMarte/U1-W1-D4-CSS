@@ -7,7 +7,8 @@ body {
   background-image: url("../img/sfondo.png");
 }
 span {
-  color: purple;
+  color: rgb(235, 22, 235);
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -22,6 +23,12 @@ ol {
   list-style-type: auto;
   padding: 10% 12%;
   text-align: left;
+}
+
+strong {
+    background-color: rgba(128, 128, 128, 0.445);
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 5px;
 }
 
 p {
@@ -88,23 +95,33 @@ h1 {
 main section p {
   text-align: left;
 }
+.iconcine {
+    color: rgba(128, 128, 128, 0.741);
+}
 
-tbody {
+tbody{
   height: 26vh;
+  text-align: center;
+}
+
+thead{
+    height: 10vh;
 }
 
 th {
-  background-color: rgb(18, 30, 103);
+  background-color: rgb(54, 80, 244);
   width: 30%;
 }
 
 tr:nth-last-of-type(2),
 tr:nth-last-of-type(4) {
-  background-color: rgba(132, 132, 132, 0.867);
+  background-color: rgba(175, 175, 175, 0.595);
+  border-top: 1px solid rgba(0, 0, 0, 0.434);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.46);
 }
 
 hr {
-  border: 1px solid blue;
+  border: 1px solid rgb(66, 66, 228);
 }
 
 #video-yt {
